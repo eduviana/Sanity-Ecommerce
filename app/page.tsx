@@ -58,7 +58,7 @@ export default async function Page({ searchParams }: Props) {
         <main className="mx-auto max-w-6xl px-6">
           <div className="flex items-center justify-between border-b border-gray-200 pb-4 pt-24 dark:border-gray-800">
             <h1 className="text-xl font-bold tracking-tight sm:text-2xl">
-              {products.length} results{products.length === 1 ? "" : "s"}
+              {products.length} result{products.length === 1 ? "" : "s"}
             </h1>
             {/* Product Sort */}
             <ProductSort />

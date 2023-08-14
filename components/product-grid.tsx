@@ -9,6 +9,8 @@ import { formatCurrencyString } from "use-shopping-cart"
 import { SanityProduct } from "@/config/inventory"
 import { shimmer, toBase64 } from "@/lib/image"
 
+
+
 interface Props {
   products: SanityProduct[]
 }

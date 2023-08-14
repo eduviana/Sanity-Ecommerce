@@ -84,7 +84,7 @@ export function CartItems() {
                   id={`quantity-${productIdx}`}
                   name={`quantity-${productIdx}`}
                   type="number"
-                  className="w-16"
+                  className="w-16 text-center"
                   min={1}
                   max={10}
                   value={product.quantity}
